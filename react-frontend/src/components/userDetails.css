@@ -1,0 +1,232 @@
+.userDetailContainer{
+    background-color: lightblue;
+    display: flex;
+}
+
+
+.userDetailCoinContainer{
+    flex: 5;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.userDetailCoinDisplay{
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 250px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+
+.tokenInputContainer{
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoText{
+    font-size:x-small;
+    font-weight: bold;
+}
+
+.inputToken{
+    font-size: medium;
+    text-align: center; 
+    border: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;        
+    height: 25px;
+    margin: 5px;
+}
+
+.buttonToken{
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(19, 155, 26);
+    color: white;
+    cursor: pointer;
+    width: 90px;
+    height: 29px;
+}
+
+.testContainer{
+    display: flex;
+    gap: 30px;
+}
+
+.activeDetailContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.exchangeInfoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 5px;
+    border: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.exchangeTitle{
+    align-self: center;
+    font-weight: bold;
+    font-size: small;
+}
+
+.exchangeAttribute{
+    font-size: small;
+}
+
+.userDetailPetContainer{
+    flex:9;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    -webkit-box-shadow: 0px 1px 12px -8px rgba(0,0,0,0.7); 
+    box-shadow: 0px 1px 12px -8px rgba(0,0,0,0.7);
+}
+
+.buyPetContainer{
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.petNameInput{
+    font-size: medium;
+    border: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    width: 200px;        
+    height: 25px;
+    margin: 5px;
+}
+
+.petRaceSelector{
+    font-size: medium;
+    border: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    width: 150px;        
+    height: 29px;
+    cursor: pointer;
+}
+
+.buttonBuyPet{
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(19, 155, 26);
+    color: white;
+    cursor: pointer;
+    width: 90px;
+    height: 29px;
+}
+
+.tradePetContainer{
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tradePetAdressContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tradePetInputButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.inputTrade{
+    font-size: medium;
+    text-align: center; 
+    border: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;        
+    height: 25px;
+    margin: 5px;
+}
+
+.tradePriceContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputAddress{
+    font-size: medium;
+    border: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    width: 400px;        
+    height: 25px;
+    margin: 5px;
+  }
+
+.buttonTrade{
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(19, 155, 26);
+    color: white;
+    cursor: pointer;
+    width: 90px;
+    height: 29px;
+    margin-top: 12px;
+}
+
+.petTitle{
+    font-weight: bold;
+    font-size: small;
+}
+
+.activeUserTitle{
+    font-weight: bold;
+    font-size: small;
+}
+
+.activeUser{
+    width: 250px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    font-size: xx-small;
+}

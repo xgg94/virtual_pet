@@ -1,0 +1,77 @@
+.allTradesContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    justify-content: space-around;
+}
+
+.tradeInfoContainer{
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-around;
+    border: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px;
+}
+
+.test{
+    margin: 5px;
+}
+
+.tradeButtonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.tradeButtonAccept{
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(19, 155, 26);
+    color: white;
+    cursor: pointer;
+    height: 29px;
+    margin: 5px;
+}
+
+.tradeButtonDecline{
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(227, 25, 25);
+    color: white;
+    cursor: pointer;
+    height: 29px;
+    margin: 5px;
+}
+
+.grow5 {
+    transition: all .2s ease-in-out; 
+}
+  
+.grow5:hover { 
+    transform: scale(1.02); 
+    cursor: pointer;
+    background-color: rgb(185, 20, 20);
+}
+
+.tradeTitle{
+    font-weight: bold;
+    color: coral;
+}
+
+.tradeAttribute{
+    display: flex;
+    gap: 5px;
+}
+.tradeAttributeTitle{
+    font-weight: bold;
+}
+
+.tradeAttributeValue{
+    
+}

@@ -1,0 +1,109 @@
+.petPictureContainer{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.petDetailHorizontalContainer{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.petDetailContainer{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    border: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    min-width: 150px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.petAttribute{
+    display: flex;
+    justify-content: space-between;
+}
+
+.petDeadAttribute{
+    align-self: center;
+}
+
+.petActionContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.petActionFirstContainer{
+    display: flex;
+}
+
+.buttonActionPet{
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    width: 170px;
+    height: 29px;
+    margin: 5px;
+}
+
+.gambleActionPetContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputGamble{
+    font-size: medium;
+    text-align: center;
+    border: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    width: 60px;        
+    height: 25px;
+    margin: 5px;
+}
+
+.grow3 {
+    transition: all .2s ease-in-out; 
+    }
+  
+.grow3:hover { 
+transform: scale(1.02); 
+cursor: pointer;
+background-color: rgb(252, 115, 66);
+}
+
+.buttonUpdatePet{
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(19, 155, 26);
+    color: white;
+    cursor: pointer;
+    width: 170px;
+    height: 29px;
+    margin: 5px;
+}
+
+.grow4 {
+    transition: all .2s ease-in-out; 
+}
+  
+.grow4:hover { 
+transform: scale(1.02); 
+cursor: pointer;
+background-color: rgb(14, 126, 19);
+}

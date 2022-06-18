@@ -1,0 +1,88 @@
+.chooseActivePetContainer{
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.buttonChoosePet{
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(19, 155, 26);
+    color: white;
+    cursor: pointer;
+    width: 170px;
+    height: 29px;
+}
+
+
+.allPetsContainer{
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.singlePet{
+    margin: 5px;
+    padding: 3px;
+    text-align: center; 
+    border: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.noPet{
+    margin: 5px;
+    padding: 3px;
+    text-align: center; 
+    border: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.choosenPet{
+    margin: 5px;
+    padding: 3px;
+    text-align: center; 
+    border: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    color: coral;
+}
+
+.nextPetContainer{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.buttonNextPet{
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    width: 170px;
+    height: 29px;
+}
+
+.grow2 {
+    transition: all .2s ease-in-out; 
+    }
+  
+.grow2:hover { 
+transform: scale(1.02); 
+cursor: pointer;
+background-color: rgb(252, 115, 66);
+}
